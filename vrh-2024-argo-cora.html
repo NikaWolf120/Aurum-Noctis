@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="cs">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+            name="description"
+            content="Galerie vrhu A 2024 Argo × Cora – fotografie a shrnutí vrhu chovatelské stanice Aurum Noctis."
+        />
+        <title>Vrh A 2024 | Argo × Cora | Aurum Noctis</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body>
+        <header class="page-header">
+            <nav class="nav-wrap" aria-label="Hlavní navigace">
+                <a class="brand" href="index.html" aria-label="Domovská stránka">
+                    <img src="assets/img/Doberman logo.webp" alt="Logo chovatelské stanice" />
+                    <span>Aurum Noctis</span>
+                </a>
+                <button class="menu-toggle" aria-expanded="false" aria-controls="site-menu" aria-label="Otevřít menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="menu" id="site-menu">
+                    <li><a href="o-nas.html">O nás</a></li>
+                    <li><a href="nasi-psi.html">Naši psi</a></li>
+                    <li><a href="stenata.html">Štěňata</a></li>
+                    <li><a href="index.html#kontakt">Kontakt</a></li>
+                </ul>
+            </nav>
+
+            <div class="page-hero reveal">
+                <p class="hero-kicker">Galerie vrhu &bull; Jaro 2024</p>
+                <h1>Vrh A &ndash; Argo &times; Cora</h1>
+            </div>
+        </header>
+
+        <main>
+            <section class="section reveal">
+                <div class="section-head">
+                    <p class="overline">Shrnutí</p>
+                    <h2>První vrh Aurum Noctis</h2>
+                </div>
+                <p class="gallery-intro" style="color:var(--muted);">
+                    Ve vrhu se narodilo 6 štěňat (3 psi, 3 fenky). Všechna štěňata odešla do ověřených domovů,
+                    kde se aktivně věnují rodinnému životu, sportu i výstavám.
+                </p>
+                <div style="display:flex;gap:0.75rem;flex-wrap:wrap;margin-top:1.25rem;">
+                    <a class="btn btn-ghost" href="stenata.html">&larr; Zpět na přehled vrhů</a>
+                    <a class="btn btn-primary" href="index.html#kontakt">Napsat dotaz k vrhu</a>
+                </div>
+            </section>
+
+            <section class="section reveal">
+                <div class="section-head">
+                    <p class="overline">Fotogalerie</p>
+                    <h2>Momentky vrhu A</h2>
+                </div>
+                <div class="gallery-grid">
+                    <figure class="gallery-card">
+                        <img src="assets/img/dobermans_vrh_a_argo_cora.png" alt="Vrh A Argo a Cora" />
+                        <figcaption>Skupinové foto vrhu A.</figcaption>
+                    </figure>
+                    <figure class="gallery-card">
+                        <img src="assets/img/doberman_argo_aurum_noctis.png" alt="Argo Aurum Noctis" />
+                        <figcaption>Argo Aurum Noctis &ndash; otec vrhu.</figcaption>
+                    </figure>
+                    <figure class="gallery-card">
+                        <img src="assets/img/doberman_cora_nocturne.png" alt="Cora Nocturne" />
+                        <figcaption>Cora Nocturne &ndash; matka vrhu.</figcaption>
+                    </figure>
+                    <figure class="gallery-card">
+                        <img src="assets/img/not_exist.png" alt="Dobermani v ateliéru" />
+                        <figcaption>Portrétní moment z rodiny.</figcaption>
+                    </figure>
+                    <figure class="gallery-card">
+                        <img src="assets/img/not_exist.png" alt="Lesní atmosféra" />
+                        <figcaption>Atmosféra chovu v přírodě.</figcaption>
+                    </figure>
+                    <figure class="gallery-card">
+                        <img src="assets/img/not_exist.png" alt="Sourozenci dobermanů" />
+                        <figcaption>Růst štěňat a společná socializace.</figcaption>
+                    </figure>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <p>&copy; <span id="year"></span> Chovatelská stanice Aurum Noctis</p>
+            <p class="portfolio-disclaimer">Web je součástí portfolio projektu. Veškeré fotografie jsou ilustrační a vytvořené pomocí AI.</p>
+        </footer>
+
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
